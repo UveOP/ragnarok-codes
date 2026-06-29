@@ -1,18 +1,3 @@
-/* Ragnarok Codes v0.2 */
-:root{
- --rag-black:#0d0d0d;
- --rag-dark:#171717;
- --rag-gold:#b48a39;
- --rag-red:#7a1a22;
- --rag-text:#d7d2c8;
-}
-.RAG001{width:780px;margin:30px auto;background:var(--rag-black);border:1px solid #222;box-shadow:0 0 30px rgba(0,0,0,.45);overflow:hidden;color:var(--rag-text);font-family:Georgia,serif}
-.RAG001 img{display:block;width:100%}
-.RAG001 .hero{position:relative}
-.RAG001 .hero:after{content:'';position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,var(--rag-black));}
-.RAG001 .section{padding:40px 55px;background:linear-gradient(180deg,#121212,#0d0d0d)}
-.RAG001 h2{margin:0 0 20px;color:var(--rag-gold);text-transform:uppercase;letter-spacing:4px;font-size:28px;border-left:4px solid var(--rag-red);padding-left:15px}
-.RAG001 h3{color:var(--rag-gold);letter-spacing:2px;text-transform:uppercase;margin:30px 0 10px;font-size:18px}
-.RAG001 p{line-height:1.9;font-size:14px;color:#cfcfcf}
-.RAG001 .divider{height:2px;background:linear-gradient(to right,transparent,var(--rag-gold),transparent);margin:35px 0}
-.RAG001 .quote{padding:22px;border-left:3px solid var(--rag-red);background:#141414;font-style:italic;color:#e5d3a0}
+/* Ragnarok Codes v0.3 - Sprint 1 */
+:root{--rag-black:#0d0d0d;--rag-dark:#171717;--rag-gold:#b48a39;--rag-red:#7a1a22;--rag-text:#d7d2c8;--rag-border:#2b241c}
+.RAG001{width:780px;margin:30px auto;background:var(--rag-black);border:1px solid var(--rag-border);box-shadow:0 0 30px rgba(0,0,0,.45);overflow:hidden;color:var(--rag-text);font-family:Georgia,serif}.RAG001 *{box-sizing:border-box;transition:.45s}.RAG001 img{display:block;width:100%}.RAG001-hero{position:relative;overflow:hidden;border-bottom:1px solid var(--rag-border)}.RAG001-hero img{transform:scale(1)}.RAG001-hero:hover img{transform:scale(1.04);filter:brightness(.72)}.RAG001-hero:before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.05),rgba(0,0,0,.7));pointer-events:none}.RAG001-title{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);text-align:center;z-index:2}.RAG001-title h1{margin:0;color:#e3c98d;font-size:42px;letter-spacing:8px;text-transform:uppercase;text-shadow:0 0 18px rgba(0,0,0,.8)}.RAG001-title span{display:block;margin-top:8px;font-size:11px;letter-spacing:5px;color:#ddd;text-transform:uppercase}.RAG001-section{padding:42px 54px;background:linear-gradient(180deg,#141414,#0d0d0d)}.RAG001-divider{height:2px;background:linear-gradient(to right,transparent,var(--rag-gold),transparent);margin:24px 0}.RAG001-section h2{margin:0 0 18px;color:var(--rag-gold);letter-spacing:4px;text-transform:uppercase;font-size:28px}.RAG001-section p{line-height:1.9;color:#cfcfcf;font-size:14px}
