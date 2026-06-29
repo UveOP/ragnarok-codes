@@ -1,0 +1,13 @@
+/* Ragnarok Codes v0.1 */
+:root{
+  --rag-black:#0d0d0d;
+  --rag-gold:#b48a39;
+  --rag-red:#7a1a22;
+}
+
+.RAG001{
+  width:780px;
+  margin:auto;
+  background:var(--rag-black);
+  color:#ddd;
+}
